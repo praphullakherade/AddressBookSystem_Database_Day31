@@ -49,3 +49,7 @@ insert into aadress_book values('Raj', 'Vilankar', 'Khed', 'Ratnagiri', 'Maharas
 insert into aadress_book values('Darshana', 'More', 'Ganesh Nagar', 'Thane', 'Maharashtra', 410754, 9154458587, 'darshumore@gmail.com','Family');
 select * from aadress_book;
 select count(type),type from aadress_book group by type;
+
+-- UC11
+insert into aadress_book values('Roshan', 'Jadhav', 'Mulund', 'Mumbai', 'Maharashtra', 844054, 9658958787, 'roshan@gmail.com','Family and friend');
+select * from aadress_book;
