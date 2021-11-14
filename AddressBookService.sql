@@ -14,6 +14,7 @@ desc aadress_book;
 insert into aadress_book values('Praphulla', 'Khearde', 'Bhandup', 'Mumbai', 'Maharashtra', 400078, 8104703089, 'prafullkherade9@gmail.com');
 insert into aadress_book values('Sayali', 'Thakur', 'Chiplun', 'Ratnagiri', 'Maharashtra', 415722, 8704583785, 'thakursayali@gmail.com');
 insert into aadress_book values('Virat', 'Kohli', 'Mathura Road', 'Narela', 'Delhi', 110054, 9104458389, 'viratkohli18@gmail.com');
+insert into aadress_book values('Rutuja', 'Sharma', 'Vijay Nagar', 'Agra', 'UP', 140054, 9154458787, 'rutuja@gmail.com');
 select * from aadress_book;
 
 -- UC4
@@ -23,3 +24,6 @@ select * from aadress_book;
 -- UC5
 delete from aadress_book where first_name='Virat';
 select * from aadress_book;
+
+-- UC6
+select * from aadress_book where city='Mumbai' or state='Maharashtra';
